@@ -1,0 +1,389 @@
+{
+  "domains": [
+    {
+      "id": "domain1",
+      "nodes": [
+        {
+          "id": "rm1",
+          "type": "RM"
+        },
+        {
+          "id": "bgw1_1",
+          "type": "BorderGateway"
+        },
+        {
+          "id": "bgw1_2",
+          "type": "BorderGateway"
+        },
+        {
+          "id": "bgw1_3",
+          "type": "BorderGateway"
+        },
+        {
+          "id": "d1_node1",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node2",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node3",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node4",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node5",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node6",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node7",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node8",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node9",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node10",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d1_node11",
+          "type": "Ordinary"
+        }
+      ]
+    },
+    {
+      "id": "domain2",
+      "nodes": [
+        {
+          "id": "rm2",
+          "type": "RM"
+        },
+        {
+          "id": "bgw2_1",
+          "type": "BorderGateway"
+        },
+        {
+          "id": "bgw2_2",
+          "type": "BorderGateway"
+        },
+        {
+          "id": "bgw2_3",
+          "type": "BorderGateway"
+        },
+        {
+          "id": "d2_node1",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node2",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node3",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node4",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node5",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node6",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node7",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node8",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node9",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node10",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node11",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node12",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node13",
+          "type": "Ordinary"
+        },
+        {
+          "id": "d2_node14",
+          "type": "Ordinary"
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "source": "rm1",
+      "target": "bgw1_2",
+      "domain": "domain1"
+    },
+    {
+      "source": "rm1",
+      "target": "d1_node7",
+      "domain": "domain1"
+    },
+    {
+      "source": "bgw1_1",
+      "target": "d1_node3",
+      "domain": "domain1"
+    },
+    {
+      "source": "bgw1_1",
+      "target": "d1_node4",
+      "domain": "domain1"
+    },
+    {
+      "source": "bgw1_1",
+      "target": "d1_node5",
+      "domain": "domain1"
+    },
+    {
+      "source": "bgw1_2",
+      "target": "d1_node2",
+      "domain": "domain1"
+    },
+    {
+      "source": "bgw1_2",
+      "target": "d1_node8",
+      "domain": "domain1"
+    },
+    {
+      "source": "bgw1_3",
+      "target": "d1_node1",
+      "domain": "domain1"
+    },
+    {
+      "source": "bgw1_3",
+      "target": "d1_node6",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node1",
+      "target": "d1_node11",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node2",
+      "target": "d1_node3",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node2",
+      "target": "d1_node5",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node3",
+      "target": "d1_node10",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node4",
+      "target": "d1_node7",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node5",
+      "target": "d1_node6",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node5",
+      "target": "d1_node9",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node8",
+      "target": "d1_node10",
+      "domain": "domain1"
+    },
+    {
+      "source": "d1_node9",
+      "target": "d1_node11",
+      "domain": "domain1"
+    },
+    {
+      "source": "rm2",
+      "target": "bgw2_3",
+      "domain": "domain2"
+    },
+    {
+      "source": "rm2",
+      "target": "d2_node1",
+      "domain": "domain2"
+    },
+    {
+      "source": "rm2",
+      "target": "d2_node12",
+      "domain": "domain2"
+    },
+    {
+      "source": "bgw2_1",
+      "target": "d2_node1",
+      "domain": "domain2"
+    },
+    {
+      "source": "bgw2_1",
+      "target": "d2_node11",
+      "domain": "domain2"
+    },
+    {
+      "source": "bgw2_2",
+      "target": "d2_node2",
+      "domain": "domain2"
+    },
+    {
+      "source": "bgw2_2",
+      "target": "d2_node6",
+      "domain": "domain2"
+    },
+    {
+      "source": "bgw2_2",
+      "target": "d2_node13",
+      "domain": "domain2"
+    },
+    {
+      "source": "bgw2_3",
+      "target": "d2_node7",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node1",
+      "target": "d2_node7",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node2",
+      "target": "d2_node7",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node3",
+      "target": "d2_node4",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node3",
+      "target": "d2_node14",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node4",
+      "target": "d2_node10",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node5",
+      "target": "d2_node7",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node5",
+      "target": "d2_node9",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node6",
+      "target": "d2_node8",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node8",
+      "target": "d2_node11",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node9",
+      "target": "d2_node12",
+      "domain": "domain2"
+    },
+    {
+      "source": "d2_node10",
+      "target": "d2_node13",
+      "domain": "domain2"
+    },
+    {
+      "source": "bgw1_1",
+      "target": "bgw2_1",
+      "type": "inter-domain"
+    },
+    {
+      "source": "bgw1_2",
+      "target": "bgw2_2",
+      "type": "inter-domain"
+    },
+    {
+      "source": "bgw1_3",
+      "target": "bgw2_3",
+      "type": "inter-domain"
+    },
+    {
+      "source": "bgw1_1",
+      "target": "bgw1_2",
+      "domain": "domain1",
+      "type": "intra-bgw"
+    },
+    {
+      "source": "bgw1_1",
+      "target": "bgw1_3",
+      "domain": "domain1",
+      "type": "intra-bgw"
+    },
+    {
+      "source": "bgw1_2",
+      "target": "bgw1_3",
+      "domain": "domain1",
+      "type": "intra-bgw"
+    },
+    {
+      "source": "bgw2_1",
+      "target": "bgw2_2",
+      "domain": "domain2",
+      "type": "intra-bgw"
+    },
+    {
+      "source": "bgw2_1",
+      "target": "bgw2_3",
+      "domain": "domain2",
+      "type": "intra-bgw"
+    },
+    {
+      "source": "bgw2_2",
+      "target": "bgw2_3",
+      "domain": "domain2",
+      "type": "intra-bgw"
+    }
+  ]
+}
